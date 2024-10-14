@@ -1,4 +1,4 @@
-
+#remote command
 import serial,time
 from matplotlib import pyplot 
 s = serial.Serial('/dev/ttyUSB0',38400,timeout=2)
